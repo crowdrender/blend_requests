@@ -3,12 +3,16 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "blend requests"
+name = "blend_requests"
 dynamic = ["version"]
 dependencies = [
     "bpy"
 ]
 requires-python = ">= 3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
 authors = [
 {name = "James Crowther", email = "jamesc@crowdrender.com.au"}
 ]
