@@ -1,8 +1,17 @@
 # Copyright 2025 James Crowther
 # SPDX-License-Identifier: GPL-3.0-only
 
+from typing import Set
+
+import bpy
+from crowdrender.cr_core import HOST_APP
+from crowdrender.cr_core.event_bus import BusEvent
+
 from blend_requests.bl_ops_classes import FINISHED, BR_OT_event_bus_base
+
+
 TEST_TOPIC = b"test.topic"
+
 
 class CR_OT_event_bus_test_2(BR_OT_event_bus_base):
 
