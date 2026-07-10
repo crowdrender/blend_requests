@@ -7,7 +7,7 @@ name = "blend_requests"
 dynamic = ["version"]
 dependencies = [
     "bpy",
-    "pyzmq"
+    "cress"
 ]
 requires-python = ">= 3.10"
 classifiers = [
